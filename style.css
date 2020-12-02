@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Kumbh Sans';
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: hsl(0, 0%, 59%);
+}
+
+.container-fluid {
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  border-radius: 15px;
+  width: 18rem;
+  border: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+}
+
+.background-top {
+  position: fixed;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(5%, 5%);
+}
+.background-bottom {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, -5%);
+}
+
+.rounded-circle {
+  width: 25%;
+  border: 3px solid #fff;
+  position: relative;
+  bottom: 35px;
+  border-radius: 50%;
+}
+
+.counts {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.username-name {
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+.city {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.card-top {
+  height: 11rem;
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 85%;
+  }
+}
